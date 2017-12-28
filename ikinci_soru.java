@@ -4,10 +4,10 @@ public class ikinci_soru {
 
 	public static void main(String[] args) {
 		Scanner giris = new Scanner(System.in);
-		System.out.print("Cümle Girin:");
+		System.out.print("CÃ¼mle Girin:");
 		String cumle = giris.nextLine();
 		int harf_sayi = cumle.length();
-		System.out.print("Girdiðiniz cümlenin tersten yazýlýþý: ");
+		System.out.print("GirdiÄŸiniz cÃ¼mlenin tersten yazÄ±lÄ±ÅŸÄ±: ");
 		for (int i = harf_sayi-1; i>=0; i--) {
 			System.out.print(cumle.charAt(i));
 		}
@@ -18,12 +18,12 @@ public class ikinci_soru {
 		}
 		String cumle1= cumle.replace(" ","");
 		int h_s = cumle1.length();
-		System.out.println("\nGirdiðiniz cümle "+h_s+" karakter içeriyor.");
+		System.out.println("\nGirdiÄŸiniz cÃ¼mle "+h_s+" karakter iÃ§eriyor.");
 		String cumle2[] = cumle.split(" ");
 		for (int cu = 0; cu<=kelime_sayisi ; cu++) {
 			System.out.println(cu+1+". kelime: "+cumle2[cu]);
 		}
-		String alfabe_karakter = "0123456789ABCDEFGHIÝJKLMNOÖPQRSÞTUÜVWXYZabcdefghýijklmnoöpqrsþtuüvwxyz.?";
+		String alfabe_karakter = "0123456789ABCDEFGHIÄ°JKLMNOÃ–PQRSÅžTUÃœVWXYZabcdefghÄ±ijklmnoÃ¶pqrsÅŸtuÃ¼vwxyz.?";
 		int[] alfabe_karakter_dizi = new int[alfabe_karakter.length()]; 
 		for (int i = 0; i < cumle.length(); i++) {
 			int index = alfabe_karakter.indexOf(cumle.charAt(i));
