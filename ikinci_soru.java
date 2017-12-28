@@ -26,11 +26,11 @@ public class ikinci_soru {
 		String alfabe_karakter = "0123456789ABCDEFGHIİJKLMNOÖPQRSŞTUÜVWXYZabcdefghıijklmnoöpqrsştuüvwxyz.?";
 		int[] alfabe_karakter_dizi = new int[alfabe_karakter.length()]; 
 		for (int i = 0; i < cumle.length(); i++) {
-			int index = alfabe_karakter.indexOf(cumle.charAt(i));
-			if (index < 0) {
+			int harf_kontrol = alfabe_karakter.indexOf(cumle.charAt(i));
+			if (harf_kontrol < 0) {
 				continue;
 			}
-			alfabe_karakter_dizi[index]++;
+			alfabe_karakter_dizi[harf_kontrol]++;
 			}
 			for (int i = 0; i < alfabe_karakter_dizi.length; i++) {
 				if (alfabe_karakter_dizi[i] < 1) {
