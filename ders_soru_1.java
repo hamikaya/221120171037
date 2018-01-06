@@ -8,11 +8,11 @@ public class ders_soru_1 {
 		int sonuc = 0;
 		while(toplam<15) {
 			toplam++;
-			System.out.print(toplam+". Sayý : ");
+			System.out.print(toplam+". SayÄ± : ");
 			int sayi = giris.nextInt();
 			sonuc=sonuc+sayi;
 		}
-		System.out.println("Sonuç: "+sonuc);
+		System.out.println("SonuÃ§: "+sonuc);
 	}
 
 }
