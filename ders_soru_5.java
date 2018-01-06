@@ -6,7 +6,7 @@ public class ders_soru_5 {
 		Scanner giris = new Scanner(System.in);
 		System.out.print("Bir ifade girin: ");
 		String ifade = giris.nextLine();
-		System.out.print("Ýfadenin yazdýrýlma adedini girin: ");
+		System.out.print("Ä°fadenin yazdÄ±rÄ±lma adedini girin: ");
 		int ifade_y_a = giris.nextInt();
 		for (int i = 1; i<=ifade_y_a; i++) {
 			System.out.println(i+" -> "+ifade);
