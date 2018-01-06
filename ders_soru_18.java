@@ -4,10 +4,10 @@ public class ders_soru_18 {
 
 	public static void main(String[] args) {
 		Scanner giris = new Scanner(System.in);
-		System.out.print("Celcius değerini girin: ");
+		System.out.print("Celcius deÄŸerini girin: ");
 		double sayi = giris.nextDouble();
 		double fahrenheit = sayi*1.8+32;
-		System.out.print(sayi+" Celcius, "+fahrenheit+" Fahrenheit'e eşittir.");
+		System.out.print(sayi+" Celcius, "+fahrenheit+" Fahrenheit'e eÅŸittir.");
 	}
 
 }
