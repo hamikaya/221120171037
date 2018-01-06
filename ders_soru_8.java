@@ -4,13 +4,13 @@ public class ders_soru_8 {
 
 	public static void main(String[] args) {
 		Scanner giris = new Scanner(System.in);
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi = giris.nextInt();
 		if (sayi%2==0) {
-			System.out.print("Girdiğiniz sayı ("+sayi+") çift.");
+			System.out.print("GirdiÄŸiniz sayÄ± ("+sayi+") Ã§ift.");
 		}
 		else {
-			System.out.print("Girdiğiniz sayı ("+sayi+") tek.");
+			System.out.print("GirdiÄŸiniz sayÄ± ("+sayi+") tek.");
 		}
 	}
 
