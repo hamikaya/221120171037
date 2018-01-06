@@ -1,0 +1,17 @@
+package denemeler;
+import java.util.*;
+public class ders_soru_8 {
+
+	public static void main(String[] args) {
+		Scanner giris = new Scanner(System.in);
+		System.out.print("Sayý Girin: ");
+		int sayi = giris.nextInt();
+		if (sayi%2==0) {
+			System.out.print("Girdiðiniz sayý ("+sayi+") çift.");
+		}
+		else {
+			System.out.print("Girdiðiniz sayý ("+sayi+") tek.");
+		}
+	}
+
+}
