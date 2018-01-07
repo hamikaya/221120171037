@@ -4,25 +4,25 @@ public class ders_soru_20 {
 
 	public static void main(String[] args) {
 		Scanner giris = new Scanner(System.in);
-		System.out.print("Kaç adet sayý gireceksiniz?: ");
+		System.out.print("KaÃ§ adet sayÄ± gireceksiniz?: ");
 		int uzunluk = giris.nextInt();
 		int sayi[] = new int[uzunluk];
 		for (int i = 0; i<uzunluk; i++) {
-			System.out.print((i+1)+". sayýyý girin: ");
+			System.out.print((i+1)+". sayÄ±yÄ± girin: ");
 			sayi[i] = giris.nextInt();
 			
 		}
-		System.out.print("sayi dizisi için "+uzunluk+" eleman girdiniz. Bunlar sýrasýyla");
+		System.out.print("sayi dizisi iÃ§in "+uzunluk+" adet eleman girdiniz. Bunlar sÄ±rasÄ±yla ");
 		for (int b = 0; b<uzunluk; b++) {
 			System.out.print("["+sayi[b]+"]");
 		}
-		System.out.println(" deðerleridir.");
+		System.out.println(" deÄŸerleridir.");
 		for (int a = 0; a<uzunluk; a++) {
 			if (sayi[a]%2==0) {
-				System.out.println("sayi dizisinin "+(a+1)+". elemaný ("+sayi[a]+") çift sayýdýr.");
+				System.out.println("sayi dizisinin "+(a+1)+". elemanÄ± ("+sayi[a]+") Ã§ift sayÄ±dÄ±r.");
 			}
 			else {
-				System.out.println("sayi dizisinin "+(a+1)+". elemaný ("+sayi[a]+") tek sayýdýr.");
+				System.out.println("sayi dizisinin "+(a+1)+". elemanÄ± ("+sayi[a]+") tek sayÄ±dÄ±r.");
 			}
 		}
 	}
