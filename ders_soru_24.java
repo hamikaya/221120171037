@@ -6,8 +6,8 @@ public class ders_soru_24 {
 		Scanner giris = new Scanner(System.in);
 		System.out.print("Sayı Girin: ");
 		int sayi = giris.nextInt();
-        String binary = Integer.toBinaryString(sayi);
-        System.out.print("Girdiğiniz sayının ikilik sistemindeki karşılığı: "+binary);
+        	String binary = Integer.toBinaryString(sayi);
+       		System.out.print("Girdiğiniz sayının ikilik sistemindeki karşılığı: "+binary);
 	}
 
 }
