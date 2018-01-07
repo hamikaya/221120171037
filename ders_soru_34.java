@@ -4,13 +4,13 @@ public class ders_soru_34 {
 
 	public static void main(String[] args) {
 		Scanner giris = new Scanner(System.in);
-		System.out.print("Üssü hesaplanacak sayıyı girin: ");
+		System.out.print("ÃœssÃ¼ hesaplanacak sayÄ±yÄ± girin: ");
 		int sayi = giris.nextInt();
-		System.out.print("Üssü girin: ");
+		System.out.print("ÃœssÃ¼ girin: ");
 		int us = giris.nextInt();
 		for (int i = 1; i<us; i++) {
 			sayi*=sayi;
-			System.out.print("Sonuç: "+sayi);
+			System.out.print("SonuÃ§: "+sayi);
 		}
 	}
 
