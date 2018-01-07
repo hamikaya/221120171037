@@ -4,25 +4,25 @@ public class ders_soru_31 {
 
 	public static void main(String[] args) {
 		Scanner giris = new Scanner(System.in);
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi1 = giris.nextInt();
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi2 = giris.nextInt();
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi3 = giris.nextInt();
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi4 = giris.nextInt();
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi5 = giris.nextInt();
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi6 = giris.nextInt();
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi7 = giris.nextInt();
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi8 = giris.nextInt();
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi9 = giris.nextInt();
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi10 = giris.nextInt();
 		int sonuc1 = Math.max(sayi1, sayi2);
 		int sonuc2 = Math.max(sayi3, sayi4);
@@ -40,7 +40,7 @@ public class ders_soru_31 {
 		int sonucc6 = Math.min(sonucc3, sonucc4);
 		int sonucc7 = Math.min(sonucc5, sonucc6);
 		int sonucc8 = Math.min(sayi9, sonucc7);
-		System.out.print("Girilen sayının en büyüğü "+sonuc8+", en küçüğü ise "+sonucc8+".");
+		System.out.print("Girilen sayÄ±nÄ±n en bÃ¼yÃ¼ÄŸÃ¼ "+sonuc8+", en kÃ¼Ã§Ã¼ÄŸÃ¼ ise "+sonucc8+".");
 	}
 
 }
