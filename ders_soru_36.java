@@ -8,14 +8,14 @@ public class ders_soru_36 {
 		int enbuyuk = 0;
 		int enkucuk = 999;
 		for (int i = 0; i<10; i++) {
-			System.out.print((i+1)+". sayýyý girin:");
+			System.out.print((i+1)+". sayÄ±yÄ± girin:");
 			sayi[i] = giris.nextInt();
 			enbuyuk = Math.max(sayi[i], enbuyuk);
 			enkucuk = Math.min(sayi[i], enkucuk);
 		}
-		System.out.println("En büyük deðer: "+enbuyuk);
-		System.out.println("En küçük deðer: "+enkucuk);
-		System.out.print("En büyük ve en küçük deðerlerin toplamý ise "+(enbuyuk+enkucuk));
+		System.out.println("En bÃ¼yÃ¼k deÄŸer: "+enbuyuk);
+		System.out.println("En kÃ¼Ã§Ã¼k deÄŸer: "+enkucuk);
+		System.out.print("En bÃ¼yÃ¼k ve en kÃ¼Ã§Ã¼k deÄŸerlerin toplamÄ± ise "+(enbuyuk+enkucuk));
 	}
 
 }
