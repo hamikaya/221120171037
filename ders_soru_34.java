@@ -1,17 +1,13 @@
 package denemeler;
 import java.util.*;
-public class ders_soru_33 {
+public class ders_soru_34 {
 
 	public static void main(String[] args) {
 		Scanner giris = new Scanner(System.in);
-		System.out.print("ÃœssÃ¼ hesaplanacak sayÄ±yÄ± girin: ");
+		System.out.print("Sayı Girin: ");
 		int sayi = giris.nextInt();
-		System.out.print("ÃœssÃ¼ girin: ");
-		int us = giris.nextInt();
-		for (int i = 1; i<us; i++) {
-			sayi*=sayi;
-			System.out.print("SonuÃ§: "+sayi);
-		}
+		String test = String.valueOf(sayi);
+		System.out.print("Girdiğiniz sayı "+test.length()+" basamaklı.");
 	}
 
 }
