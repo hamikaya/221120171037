@@ -4,7 +4,7 @@ public class ders_soru_28 {
 
 	public static void main(String[] args) {
 		Scanner giris = new Scanner(System.in);
-		System.out.print("Sayı Girin: ");
+		System.out.print("SayÄ± Girin: ");
 		int sayi1 = giris.nextInt();
 		int sayac = 0;
 		String sayi = Integer.toString(sayi1);
@@ -17,10 +17,10 @@ public class ders_soru_28 {
 			}
 		}
 		if (sayac/sayi.length()==sayi.length() || sayac!=sayi.length()) {
-			System.out.print(sayi1+" sayısı palindromdur.");
+			System.out.print(sayi1+" sayÄ±sÄ± palindromdur.");
 		}
 		else {
-			System.out.print(sayi1+" sayısı palindrom değildir.");
+			System.out.print(sayi1+" sayÄ±sÄ± palindrom deÄŸildir.");
 		}
 	}
 
