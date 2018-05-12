@@ -131,7 +131,7 @@ public class uygulama_sinav {
 				            lblNewLabel_4.setText("Asal sayılar: "+asalsayilar123);
 			            }
 			            Collections.sort(sayilar);
-			            lblNewLabel_6.setText("Büyükten küçüğe : "+sayilar);
+			            lblNewLabel_6.setText("Küçükten büyüğe : "+sayilar);
 					}
 					break;
 				}
